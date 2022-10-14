@@ -5,7 +5,7 @@ describe 'Reverse' do
   it 'Should return an empty string when passed an empty string' do
     expect(solver.reverse('')).to eq('')
   end
-  
+
   it 'Should return h if the input is h' do
     expect(solver.reverse('h')).to eq('h')
   end

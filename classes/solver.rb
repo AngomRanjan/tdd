@@ -8,10 +8,10 @@ class Solver
   end
 
   def reverse(str)
-    if(str=='')
-      return ''
+    if str == ''
+      ''
     else
-    str.reverse
+      str.reverse
     end
   end
 
