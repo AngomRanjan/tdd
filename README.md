@@ -54,6 +54,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
 - LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
+
+👤 Kidist Dinku
+
+- GitHub: [Ney2](https://github.com/Ney2)
+- Twitter: [@GutaKidist](https://twitter.com/GutaKidist)
+- LinkedIn: [Kidist Dinku](https://www.linkedin.com/in/kidist-guta/)
+
 ## Source
 
 - [Repo Link](https://github.com/AngomRanjan/tdd)
