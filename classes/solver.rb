@@ -8,7 +8,11 @@ class Solver
   end
 
   def reverse(str)
+    if(str=='')
+      return ''
+    else
     str.reverse
+    end
   end
 
   def fizzbuzz(num)
