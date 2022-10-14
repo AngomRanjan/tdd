@@ -13,7 +13,7 @@ class Solver
     elsif (num % 3).zero?
       'fizz'
     else
-      (num % 5).zero? ? 'buzz' : num
+      (num % 5).zero? ? 'buzz' : num.to_s
     end
   end
 end
