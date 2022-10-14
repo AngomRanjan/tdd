@@ -1,6 +1,10 @@
 class Solver
   def factorial(num)
-    num.zero? ? 1 : num * factorial(num - 1)
+    if num.negative?
+      'Please enter a positive number'
+    else
+      num.zero? ? 1 : num * factorial(num - 1)
+    end
   end
 
   def reverse(str)
@@ -17,11 +21,3 @@ class Solver
     end
   end
 end
-
-# a = Solver.new
-# puts a.factorial(3)
-# puts a.reverse('hello')
-# puts a.fizzbuzz(16)
-# puts a.fizzbuzz(18)
-# puts a.fizzbuzz(20)
-# puts a.fizzbuzz(30)
