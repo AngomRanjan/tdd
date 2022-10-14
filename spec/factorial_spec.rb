@@ -1,6 +1,10 @@
 require './classes/solver'
 describe 'Factorial' do
   solver = Solver.new
+  it 'Should return please enter a positive number for negative numbers' do
+    expect(solver.factorial(-1)).to eq('Please enter a positive number')
+  end
+
   it 'should return 1 for 0' do
     expect(solver.factorial(0)).to eq(1)
   end
